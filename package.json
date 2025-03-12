@@ -1,0 +1,20 @@
+{
+  "name": "estore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/server.js",
+    "start": "node backend/server.js"
+  },
+  "author": "Hussain Intzar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "estore": "file:",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1"
+  }
+}
